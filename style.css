@@ -18,7 +18,9 @@
 html{
     font-size: 16px;
     font-family: "Sansita", sans-serif;
+    background-color: var(--background-color);
 }
+
 
 header{
     background-color: var(--primary-color);
@@ -86,5 +88,67 @@ a{
 .info > p{
     font-size: 1.2rem;
     max-width: 60%;
+}
+
+.potion-container{
+    margin-top: 10px;
+    padding: 20px;
+
+}
+
+.potion-container img{
+    width: 200px;
+    border: 3px solid var(--background-color);
+    border-radius: 15px;
+}
+.potion-container h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.potion-list{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: var(--primary-color);
+    background-color: #f6eef0;
+
+}
+
+.card h3{
+    font-size: 1.5rem;
+}
+.card p{
+    font-size: 1.2 rem;
+
+}
+
+button{
+    padding: 10px;
+    border: var(--background-color);
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
